@@ -1,0 +1,60 @@
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #intro {
+    margin-top: 0px;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+}
+
+.bg-image-video {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  height: 100vh;
+  width: auto;
+  box-sizing: content-box;
+}
+
+/* .mask {
+    background: linear-gradient(
+          45deg,
+          rgba(29, 236, 197, 0.7),
+          rgba(91, 14, 214, 0.7) 100%
+        );
+} */
+
+.card {
+  background-color: rgb(97, 148, 180, 54%) !important;
+}
+
+.video-pru {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+.drop {
+  filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.9));
+}
+
+a:visited {
+  color:white;
+}
+
+a:link {
+  color:white;
+}
+
+a:active {
+  color:white;
+}
+
+a:hover {
+  color:white;
+}
